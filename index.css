@@ -16,6 +16,7 @@ padding: 1px;
 color: #F5F5F5;
 }
 .card{
+    position: absolute;
    width: 550px;
    height: 719px;
     left: 762px;
