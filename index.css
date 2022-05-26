@@ -24,6 +24,7 @@ color: #F5F5F5;
    background: #1F2937;
 }
 .heading{
+    position: absolute;
 width: 550px;
 height: 190px;
 left: 0px;
