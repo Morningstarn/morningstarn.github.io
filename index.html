@@ -1,0 +1,27 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class='card'>
+        <div class="heading">
+          <h1 class="first-header">Invoice creator</h1>
+          <h2 class='second-header'>Thanks for choosing Goodcorp, LLC!</h2>
+        </div>
+            <button  id="wash-car" >Wash Car: $10</button>
+            <button id="mow-lawn">Mow Lawn: $20</button>
+            <button id="pull-weeds">pull weeds: $30</button>
+            <div id='display-total'>
+                <h2 id='task-el'>TASK</h2>
+                <h2 id='total-el'>TOTAL</h2>
+                 </div>
+            <hr class='linez'>
+            <h3 class='note'>NOTES</h3>
+            <p class="notes-template">We accept cash, credit cards or paypal</p>
+            <h3 class='total-amount'>TOTAL AMOUNT</h3>
+            <p id="sum"></p>
+         <button id = 'invoice-btn' onclick="reset()">Send Invoice</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

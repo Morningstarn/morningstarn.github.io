@@ -1,0 +1,217 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+li{
+list-style: none;
+font-family: 'Inter';
+font-style: normal;
+font-size: 19px;
+margin-top: 2px;
+margin-bottom:  6px;
+padding: 1px;
+
+
+/* or 100% */
+color: #F5F5F5;
+}
+.card{
+   width: 550px;
+   height: 719px;
+    left: 762px;
+   top: 959px;
+   background: #1F2937;
+}
+.heading{
+width: 550px;
+height: 190px;
+left: 0px;
+top: 0px;
+
+background: #3A69D2;
+}
+.first-header{
+position: absolute;
+width: 354px;
+height: 40px;
+left: 98px;
+top: 59px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+text-align: center;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+}
+.second-header{
+position: absolute;
+width: 408px;
+height: 31px;
+left: 71px;
+top: 108px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+}
+#wash-car{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px;
+    position: absolute;
+    width: 143.17px;
+   height: 45px;
+   left: 38px;
+   top: 231px;
+   background: #D1D4F4;
+   border: 2px solid #FFFFFF;
+   border-radius: 7px;
+}
+#mow-lawn{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px;
+border: none;
+position: absolute;
+width: 142.11px;
+height: 45px;
+left: 203.44px;
+top: 231px;
+background: #D1D4F4;
+border: 1px solid #D5D4D8;
+border-radius: 7px;
+}
+#pull-weeds{
+    box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px;
+position: absolute;
+width: 143.17px;
+height: 45px;
+left: 367.83px;
+top: 231px;
+background: #D1D4F4;
+border: 1px solid #D5D4D8;
+border-radius: 7px;
+}
+#invoice-btn{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 17px 9px 15px;
+gap: 12px;
+position: absolute;
+width: 473px;
+height: 44px;
+left: 38px;
+top: 626px;
+background: #3A69D2;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 7px;
+border: none;
+color: white;
+}
+#task-el{
+position: absolute;
+width: 95px;
+height: 22px;
+left: 39px;
+top: 319px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 20px;
+color: #D5D4D8;
+}
+#total-el{
+position: absolute;
+width: 78px;
+height: 22px;
+left: 432px;
+top: 323px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 20px;
+text-align: right;
+color: #D5D4D8;
+}
+.note{
+    position: absolute;
+width: 105px;
+height: 28px;
+left: 39px;
+top: 509px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 32px;
+color: #D5D4D8;
+}
+.notes-template{
+position: absolute;
+width: 218px;
+height: 15px;
+left: 39px;
+top: 548px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #F5F5F5;
+}
+.total-amount{
+    position: absolute;
+width: 105px;
+height: 28px;
+left: 405px;
+top: 509px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 32px;
+text-align: right;
+color: #D5D4D8;
+}
+#sum{
+    position: absolute;
+width: 105px;
+height: 28px;
+left: 405px;
+top: 548px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 2px;
+/* or 89% */
+text-align: right;
+color: #F5F5F5;
+}
+.linez{
+    position: absolute;
+width: 471px;
+height: 0px;
+left: 39px;
+top: 498px;
+border: 1px solid #C3C6DB;
+}
